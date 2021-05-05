@@ -22,8 +22,9 @@ public class ServingWebContentApplication extends SpringBootServletInitializer{
     }
     
     @RequestMapping("/serving-web-content-0.0.1-SNAPSHOT")
-    String helloWorld( ) {
-    	return "Hello World!";
+    //String helloWorld( ) {
+    public String index() {
+    	return "Hello World This is Sumbo Capstone Project!";
     }
 
 }
