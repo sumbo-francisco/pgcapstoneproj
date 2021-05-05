@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class ServingWebContentApplication extends SpringBootServletInitializer{
 	
-	@Override
+	/*@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(ServingWebContentApplication.class);
-	}
+	}*/
 	
 
     public static void main(String[] args) {
@@ -22,8 +22,8 @@ public class ServingWebContentApplication extends SpringBootServletInitializer{
     }
     
     @RequestMapping("/serving-web-content-0.0.1-SNAPSHOT")
-    //String helloWorld( ) {
-    public String index() {
+    String helloWorld() {
+    //public String index() {
     	return "Hello World This is Sumbo Capstone Project!";
     }
 
