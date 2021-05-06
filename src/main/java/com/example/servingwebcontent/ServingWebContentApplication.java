@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class ServingWebContentApplication extends SpringBootServletInitializer{
 	
-	/*@Override
+	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(ServingWebContentApplication.class);
-	}*/
+	}
 	
 
     public static void main(String[] args) {
